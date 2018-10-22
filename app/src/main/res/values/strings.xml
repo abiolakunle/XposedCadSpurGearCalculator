@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">XposedCad Spur Gear Calculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="module_addendum">Module or Addendum</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="no_of_teeth">Number of Teeth</string>
+    <string name="pressure_angle_label">Pressure Angle in Degrees</string>
+    <string name="diametral_pitch">Diametral Pitch</string>
+    <string name="circular_pitch">Circular Pitch</string>
+    <string name="dedendum">Dedendum</string>
+    <string name="outrside_diameter">Outside Diameter</string>
+    <string name="pitch_diameter">Pitch Diameter</string>
+    <string name="root_diameter">Root Diameter</string>
+    <string name="diameter_of_basecircle">Diameter of Base Circle</string>
+    <string name="circular_tooth_thickness">Circular Tooth Thickness</string>
+    <string name="whole_depth">Whole Depth</string>
+    <string name="clearance">Clearance</string>
+
+    <string name="title_activity_spur_gear_terms">Spur gear terms</string>
+    <string name="term_text">
+        1.	PITCH DIAMETER (D) \n
+The diameter of the Pitch Circle from which the gear is designed. An imaginary circle, which will contact the pitch circle of another gear when in mesh.
+\n\n
+2.	DIAMETRAL PITCH (P) \n
+A ratio of the number of teeth per inch of pitch diameter.
+\n\n
+
+3.	ADDENDUM (A) \n
+The radial distance from the pitch circle to the top of the gear tooth.
+\n\n
+
+4.	DEDENDUM (B) \n
+The radial distance from the pitch circle to the bottom of the tooth.
+\n\n
+
+5.	OUTSIDE DIAMETER (OD) \n
+The overall diameter of the gear.
+\n\n
+
+6.	ROOT DIAMETER (RD) \n
+The diameter at the Bottom of the tooth.
+\n\n
+
+7.	BASE CIRCLE (BC) \n
+The circle used to form the involute section of the gear tooth.
+\n\n
+
+8.	CIRCULAR PITCH (CP) \n
+The measured distance along the circumference of the Pitch Diameter from the point of one tooth to the corresponding point on an adjacent tooth.
+\n\n
+
+9.	CIRCULAR TOOTH THICKNESS (T) \n
+Thickness of a tooth measure along the circumference of the Pitch Circle.
+\n\n
+
+10.	WHOLE DEPTH (WD) \n
+Refers to the distance from the top of the tooth to the bottom of the tooth.
+\n\n
+
+11.	PRESSURE ANGLE (PA) \n
+It refers to the angle through which forces are transmitted between meshing gears.
+\n\n
+
+12.	CLEARANCE (C) \n
+Refers to the radial distance between the top and bottom of gears in mesh.
+\n\n
+
+13.	CENTER DISTANCE  \n
+The center distance of 2 spur gears is the distance from the center shaft of one spur gear to the
+center shaft of the other.
+\n\n
+
+14.	PITCH POINT  \n
+It is the point of contact between the pitch circles of two gears in mesh.
+\n\n
+
+15.	LINE OF ACTION  \n
+Contact between the teeth of meshing gears take place along a line tangential to the two base circles. This line passes through the pitch point and is called the line of action.
+\n\n
+
+16.	WORKING DEPTH  \n
+It is the maximum depth that the tooth extends into the tooth space of a mating gear. It is the sum of the addenda of the gears.
+\n\n
+
+17.	TOOTH FACE  \n
+Is the surface of a tooth above the pitch circle, parallel to the axis of the gear.
+\n\n
+
+18.	TOOTH FLANK  \n
+Is the tooth surface below the pitch circle, parallel to the axis of the gear.
+
+
+         </string>
+    <string name="title_activity_formulae">Spur gear formulae</string>
+    <string name="formulae_text">•	Pitch diameter(D)= \nnumber of teeth(N) / diametral pitch(P) \n\n
+
+•	Diametral pitch(P)= \nnumber of teeth(N) / pitch diameter(D) \n\n
+
+•	Addendum(A)= \n 1 / diametral pitch(P) \n\n
+
+•	Dedendum(B)= \n 1.157 / diametral pitch(P) \n\n
+
+•	Outside diameter(OD)= \n (number of teeth(N) + 2) / diametral pitch(P) \n\n
+
+•	Root diameter(RD)= \n (number of tooth(N) - 2) / diametral pitch(P) \n\n
+
+•	Base circle (BC)= \n diametral pitch(D) * Cos( pressure angle(PA) ) \n\n
+
+•	Circular pitch(CP)= \n pi / diametral pitch(P) \n\n
+
+•	Circular tooth thickness(T)= \n (pi * pitch diameter(D)  ) / number of teeth(N) \n\n
+
+•	Whole depth(WD)= \n 2.157 / diametral pitch(P) \n\n
+
+•	Clearance(C)= \n 0.25 * addendum(A) \n\n
+
+</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_text">
+    ••XposedCadSpurGearCalculator developed by \n•ABIOLA OLAKUNLE.\n\n
+         • Email\n
+        Olakunle2abiola@gmail.com \n\n
+    • Visit http://xposedcad.blogspot.com \nTo get computer aided design(CAD) tips and tutorial videos.
+
+        \n\n\n\n••This app is dedicated to my sister \n•AYOOLA ESTHER ABIOLA.
+
+
+    </string>
+    <string name="title_activity_share">Contact me</string>
+    <string name="share_text">• Email: \n
+        Olakunle2abiola@gmail.com \n\n\n
+
+    • Visit http://xposedcad.blogspot.com \nTo get computer aided design(CAD) tips and tutorial videos.
+
+    </string>
+
+    <string name="title_activity_spur_gear_example">spurGearExample</string>
+
+</resources>
