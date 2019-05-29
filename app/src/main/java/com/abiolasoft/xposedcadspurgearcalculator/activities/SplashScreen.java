@@ -21,8 +21,6 @@ public class SplashScreen extends AppCompatActivity {
 
         LogoLauncher logoLauncher = new LogoLauncher();
         logoLauncher.start();
-
-
     }
 
     private class LogoLauncher extends Thread {
