@@ -21,6 +21,16 @@
     <string name="whole_depth">Whole Depth</string>
     <string name="clearance">Clearance</string>
 
+    <string-array name="colors" translatable="false">
+        <item>#33b5e5</item>
+        <item>#0099cc</item>
+        <item>#547bca</item>
+        <item>#8DC3EE</item>
+        <item>#cccccc</item>
+        <item>#9E9E9E</item>
+        <item>#888888</item>
+    </string-array>
+
     <string name="title_activity_spur_gear_terms">Spur gear terms</string>
     <string name="term_text">
         1.	PITCH DIAMETER (D) \n
@@ -140,5 +150,6 @@ Is the tooth surface below the pitch circle, parallel to the axis of the gear.
     </string>
 
     <string name="title_activity_spur_gear_example">spurGearExample</string>
+    <string name="formula_name">Formula Name</string>
 
 </resources>

@@ -5,23 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".fragments.GearFormulae">
 
-    <!-- TODO: Update blank fragment layout -->
-    <ScrollView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/formula_rv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/formulae_text"
-                android:textSize="18sp" />
-        </LinearLayout>
-    </ScrollView>
-
+        android:layout_height="match_parent"
+        android:padding="8dp" />
 </FrameLayout>
